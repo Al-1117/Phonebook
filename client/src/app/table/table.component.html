@@ -1,0 +1,29 @@
+
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>  
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Actions</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contact of contacts">
+      <th scope="row">{{contact.id}}</th>
+      <td>{{contact.name}}</td>
+      <td>{{contact.lastName}}</td>
+      <td>{{contact.address}}</td>
+      <td>{{contact.phoneNumber}}</td>
+      <td>
+        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+      </td>
+    </tr>
+
+  </tbody>
+</table>

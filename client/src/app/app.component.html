@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <!-- NAVBAR -->
+    <div class="row">
+      <div class="nav">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Navbar</span>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <br>
+
+    <div class="container">
+      <!-- INSERT AND SEARCH -->
+      <div class="row">
+        <div class="col-2 heading">
+          <button type="button" class="btn btn-outline-primary">Add record</button>
+        </div>
+        <div class="col-2 offset-7 search">
+          <input type="text" class="form-control" placeholder="Search record..." aria-label="" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <br>
+      <!-- TABLE -->
+      <div class="row">
+        <div>
+          <app-table [contacts]="contactsData"></app-table>
+         </div>
+      </div>
+    </div>
+   
+  </div>
+
+
+</body>
+</html>
