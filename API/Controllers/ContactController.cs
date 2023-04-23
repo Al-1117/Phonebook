@@ -25,13 +25,12 @@ namespace API.Controllers
         {
             var contacts = await _context.Contacts.ToListAsync();
             return contacts;
-
         }
 
         [HttpPost("Insert")]
         public async Task<ContactEntity>  InsertContact(ContactEntity contact)
         {
-             ContactEntity newContact = new ContactEntity()
+            ContactEntity newContact = new ContactEntity()
             {
                 Name = contact.Name,
                 LastName = contact.LastName,
