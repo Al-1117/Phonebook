@@ -6,8 +6,11 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+<<<<<<< HEAD
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
+=======
+>>>>>>> ba103ccfbd668ce144f9eb678dae01cfb8c70434
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
@@ -19,7 +22,11 @@
     "target": "es2017",
     "module": "es2020",
     "lib": [
+<<<<<<< HEAD
       "es2020",
+=======
+      "es2018",
+>>>>>>> ba103ccfbd668ce144f9eb678dae01cfb8c70434
       "dom"
     ]
   },

@@ -39,7 +39,7 @@ namespace API.Controllers
                 PhoneNumber = contact.PhoneNumber,
             };
             _context.Add(newContact);
-             _context.SaveChanges();
+            _context.SaveChanges();
             return  newContact;
         }
 
